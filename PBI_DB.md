@@ -21,7 +21,7 @@ Visual #3 is a table detailing property prices from each region and Year over Ye
 * Implying healthy and growing market post COVID-19
 * Total pricing movement in the **North**, **West** and **Central** region
 * Property in the _West_ holding the top position and Property in the _North_ having drastic moving, ending in third
-* Discounting TXN Vol, the West maintains its position with the highest average price. Implying the value of the region.
+* Discounting TXN Vol, the West maintains its position with the highest average property prices. Implying the value of the region.
 * Discount the total area, the average unit price across each region maintained a steady growth. The North-East overtook central for the top position in 2025.
 
 
@@ -40,5 +40,7 @@ Visual #2 look at the data from the approach of _**Planning Areas**_ grouped by 
 Visual #3 is a table breaking down property prices with other variables. It does one step deeper by segmenting the data by planning area
 
 ### Insight
+
+Going Deeper into the planning area according to each region
 
 
