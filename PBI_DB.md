@@ -15,6 +15,15 @@ Visual #3 is a table detailing property prices from each region and Year over Ye
 
 ### Insights 
 
+> Keeping in mind that `Total Property Prices` is the sum-product of _Unit Price Per Sqft_, _Area (Sqft)_ and _Transaction Volume_
+
+* An **growing trend** in total property prices from 2020 to 2024
+* Implying healthy and growing market post COVID-19
+* Total pricing movement in the **North**, **West** and **Central** region
+* Property in the _West_ holding the top position and Property in the _North_ having drastic moving, ending in third
+* Discounting TXN Vol, the West maintains its position with the highest average price. Implying the value of the region.
+* Discount the total area, the average unit price across each region maintained a steady growth. The North-East overtook central for the top position in 2025.
+
 
 
 ## Information Button
@@ -29,5 +38,7 @@ Visual #2 look at the data from the approach of _**Planning Areas**_ grouped by 
 
 ### Visual #3
 Visual #3 is a table breaking down property prices with other variables. It does one step deeper by segmenting the data by planning area
+
+### Insight
 
 
