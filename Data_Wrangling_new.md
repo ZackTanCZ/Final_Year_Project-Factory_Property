@@ -298,7 +298,7 @@ rentalDF["Period"] = rentalDF["Period"].apply(lambda x: proper_q(x))
 
 ### Geographical Data
 
-Refer to [OneMap_API.md](https://github.com/ZackTanCZ/FactoryPBI_DB/edit/main/OneMap_API.md)
+Refer to [OneMap_API.md](https://github.com/ZackTanCZ/FactoryPBI_DB/blob/main/OneMap_API.md)
 
 ### Lagged Values
 
