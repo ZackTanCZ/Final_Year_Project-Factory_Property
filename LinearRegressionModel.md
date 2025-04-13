@@ -1,4 +1,4 @@
-# Linear Regression Model with SKLearn Library
+# Python Code to build a Linear Regression Model with the Scikit Library
 
 ## Importing Library
 ```
