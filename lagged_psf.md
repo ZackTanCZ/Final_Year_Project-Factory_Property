@@ -1,4 +1,4 @@
-#
+# Python Code to add Lagged psf Variable
 
 ## Custom Function
 
@@ -34,13 +34,10 @@ def addLaggedpsf(df):
         projFullDF.sort_values(by = 'Contract Date', ascending = True, inplace=True) 
         
         # reset the DataFrame index
-        projFullDF.reset_index(drop=True, inplace=True)
-
-        # subset the full project DF, join back later.
-        projSubDF = projFullDF[['Unit Price ($ psf)']] 
+        projFullDF.reset_index(drop=True, inplace=True) 
 
         # Get the max value from a window of past three transactions
-        projSubDF = projSubDF.rolling(3, closed= "left", min_periods= 1).max() 
+        projSubDF = projFullDF[['Unit Price ($ psf)']].rolling(3, closed= "left", min_periods= 1).max() 
 
         # replace NA values with the previous row's psf
         projSubDF.bfill(inplace=True) 
