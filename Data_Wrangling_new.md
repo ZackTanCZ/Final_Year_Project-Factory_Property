@@ -235,12 +235,27 @@ forexDF = forexDF.astype({'forex':'float'})
 forexDF = forexDF[['YearMonthKey','forex']]
 ```
 
+### Adding the Tender Price Index (TPI) Variable
+
+```
+# Source from BCA - https://www1.bca.gov.sg/docs/default-source/docs-corp-form/free_stats.pdf?sfvrsn=4d68fbe4_148
+tpiDict = {'Year':[2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+           'tpi':[98.0, 96.7, 98.6, 99.9, 102.8, 117.1, 130.7, 136.1, 137.7]}
+
+# Convert to DataFrame
+tpiDF = pd.DataFrame.from_dict(tpiDict)
+tpiDF["Changefrom2010"] = tpiDF["tpi"] - 100
+
+display(tpiDF)
+```
+
 ## Mapping of economic variables to JTC dataset
 
 ```
 dfList = [
     {'df': lhfDF, 'on': 'Year'}, # Main DF from JTC
     {'df': popDF, 'on': 'Year'}, # Population Dataset
+    {'df': tpiDF, 'on': 'Year'}, # TPI Dataset
     {'df': soraDF, 'on': 'YearMonthKey'}, # SORA Dataset
     {'df': forexDF, 'on': 'YearMonthKey'}, # Forex Dataset
     {'df': gdpDF, 'on': 'Year'}, # GDP Datase
