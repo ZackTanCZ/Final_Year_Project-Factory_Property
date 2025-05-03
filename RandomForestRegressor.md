@@ -1,5 +1,8 @@
 # Python Code to build a Random Forest Regressor Model with the Scikit Library
-Please note that the current implementation of RandomForestRegressor only accepts continuous variables. Categorical variables will need to be encoded into dummy variables.
+
+## Note:
+The current codebase does not adhere to the best practices of Software Engineering/Machine Learning Engineering.
+Refactoring of this codebase is a WIP
 
 ## Importing Library
 ```
