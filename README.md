@@ -11,6 +11,14 @@ The primary business goal of this project is twofold:
 # Business Analytics Objective
 To achieve these goals, we will conduct a comprehensive exploratory analysis to quantify the relationship between economic variables and property characteristics on pricing. Subsequently, we will develop a predictive model using historical data and machine learning techniques to forecast property prices. This model will serve as a decision-support tool for pricing strategies and sales forecasting.
 
+# Data Source(s)
+The dataset will be ingested from publicly available sources:
+* Economic Factors - Department of Statistic Singapore(DOS)
+* Property Features - Jurong Town Council(JTC)
+
+ 
+
+
 
 
 
